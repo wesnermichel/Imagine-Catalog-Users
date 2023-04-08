@@ -25,21 +25,20 @@ I want to build a database of stories that havent been read by any other human b
 ### MVP Goals
 
 <ul>
-  <li> I want my catalogue to allow someone to pick an item and learn more about it </li> 
+  <li> I want my catalogue to allow someone to pick an item from a lift of stories and learn more about it once it has been selected </li> (5)
   <li> I want my catalogue to allow someone to share the link to their favorite social network</li>
-  <li> I want my catalogue to allow someone to share the link to their favorite social network</li>
-  <li> I want my catalogue to allow someone to share the link to their favorite social network</li>
+  <li> I want my user to be able to edit content from the AI generated content</li>
+  <li> I want my user to view different stories, </li>
   <li> I want my catalogue to allow someone to share the link to their favorite social network</li>
   
 ### Stretch Goals
 <ul>
-  
-  <li> As a user I would like to have the story be read for people who many some visual impairment 
+  <
+  <li> As a user I would like to have the story be read for people who many some visual impairment </li>
+  <li> As a user to log in and make a comment on the story</li>
   <li> Would like only registered users to be have access to CREATE/EDIT/DELETE 
 
-</ul>
 
-  
 ### Story Schema is as followed: 
   
     title: String,
