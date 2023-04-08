@@ -12,7 +12,7 @@ This is our second project, I will be building a CRUD project using HTML5, CSS3,
 For my second project, I decided to go with the Catalogue
 
 ## Project Description
-I want to build a database of stories that havent been read by any other human being on the planet. With unique prompts, and illustrations I would like it tobe a unique experiance for every user. 
+I want to build a database of stories that havent been read by any other human being on the planet. With unique prompts, and illustrations I would like it to be a unique experiance for every user. 
 
 ## Wireframe
 
@@ -25,11 +25,11 @@ I want to build a database of stories that havent been read by any other human b
 ### MVP Goals
 
 <ul>
-  <li>As a player, I want my catalogue to allow someone to pick an item and learn more about it </li> 
-  <li>As a player, I want my catalogue to allow someone to share the link to their favorite social network</li>
-  <li>As a player, I want my catalogue to allow someone to share the link to their favorite social network</li>
-  <li>As a player, I want my catalogue to allow someone to share the link to their favorite social network</li>
-  <li>As a player, I want my catalogue to allow someone to share the link to their favorite social network</li>
+  <li> I want my catalogue to allow someone to pick an item and learn more about it </li> 
+  <li> I want my catalogue to allow someone to share the link to their favorite social network</li>
+  <li> I want my catalogue to allow someone to share the link to their favorite social network</li>
+  <li> I want my catalogue to allow someone to share the link to their favorite social network</li>
+  <li> I want my catalogue to allow someone to share the link to their favorite social network</li>
   
 ### Stretch Goals
 <ul>
@@ -38,3 +38,10 @@ I want to build a database of stories that havent been read by any other human b
   <li> Would like only registered users to be have access to CREATE/EDIT/DELETE 
 
 </ul>
+
+ Story Schema is as followed: 
+  
+    title: String,
+    image: String,
+    description: String,
+    story: String,
