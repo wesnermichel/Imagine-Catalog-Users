@@ -39,7 +39,8 @@ I want to build a database of stories that havent been read by any other human b
 
 </ul>
 
- Story Schema is as followed: 
+  
+### Story Schema is as followed: 
   
     title: String,
     image: String,
