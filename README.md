@@ -17,7 +17,7 @@ I want to build a database of stories that havent been read by any other human b
 ## Wireframe
 
 <img src= "https://imgur.com/Up4Bbip.png" alt="Wireframe 2"/></a>
-<img src="https://imgur.com/5fBOFsA.png alt="Wireframe 2"/></a>
+<img src="https://imgur.com/5fBOFsA.png" alt="Wireframe 2"/></a>
 <img src="https://imgur.com/oXc1GnJ.png" alt="Wireframe 3"/></a>
 
 
