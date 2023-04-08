@@ -1,4 +1,4 @@
-# The-Imagine-Engine-Catalogue ( Subject to change) 
+# The-Imagine-Engine-Catalogue 
 
 
 ** As a user I would like to read unique content, never read by anyone esle on this planet**
