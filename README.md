@@ -1,7 +1,7 @@
 # The-Catalogue ( Subject to change) 
 
 
-**** As a user I would like to read unique content**
+** As a user I would like to read unique content, never read by anyone esle on this planet**
 
 ## Project 2
 
