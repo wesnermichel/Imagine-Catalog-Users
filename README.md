@@ -18,7 +18,8 @@ I want to build a database of stories that havent been read by any other human b
 
 <img src= "https://imgur.com/Up4Bbip.png" alt="Wireframe 2"/></a>
 <img src="https://i.imgur.com/AS6St9q.png" alt="Wireframe 2"/></a>
-<img src="https://i.imgur.com/CT7z0O1.png" alt="Wireframe 3"/></a>
+<img src="https://imgur.com/oXc1GnJ" alt="Wireframe 3"/></a>
+
 
 ### MVP Goals
 
