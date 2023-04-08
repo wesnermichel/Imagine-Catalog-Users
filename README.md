@@ -19,12 +19,13 @@ I want to build a database of stories that havent been read by any other human b
 <img src= "https://imgur.com/Up4Bbip.png" alt="Wireframe 2"/></a>
 <img src="https://imgur.com/5fBOFsA.png" alt="Wireframe 2"/></a>
 <img src="https://imgur.com/oXc1GnJ.png" alt="Wireframe 3"/></a>
+</h1>*
 
 
 ### MVP Goals
 
 <ul>
-  <li>As a player, I want my catalogue to allow someone to pick an item and learn more about it </li> (5)
+  <li>As a player, I want my catalogue to allow someone to pick an item and learn more about it </li> 
   <li>As a player, I want my catalogue to allow someone to share the link to their favorite social network</li>
   <li>As a player, I want my catalogue to allow someone to share the link to their favorite social network</li>
   <li>As a player, I want my catalogue to allow someone to share the link to their favorite social network</li>
@@ -32,7 +33,7 @@ I want to build a database of stories that havent been read by any other human b
   
 ### Stretch Goals
 <ul>
-  <
+  
   <li> As a user I would like to have the story be read for people who many some visual impairment 
   <li> Would like only registered users to be have access to CREATE/EDIT/DELETE 
 
