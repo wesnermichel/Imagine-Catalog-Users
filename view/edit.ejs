@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("./partials/head.ejs") %>
+<style>
+    table {
+  width: 100%;
+}
+th {
+  height: 30px;
+}
+body {
+            text-align: center;
+            background-color: #F0F0F0;
+}
+</style>
+  <body>
+    <%- include("./partials/header.ejs") %>
+    <main>
+      <div>
+        <form action="/stories/<%= stories._id %>?_method=PUT" method="post">
+          <fieldset>
+            <legend>Edit a <%= story.title %></legend>
+            <label>
+             Title<input
+                type="text"
+                name="title"
+                value="<%= story.title %>"
+                placeholder="Enter Story Title"
+              />
+            </label>
+            <label>
+              Human Written? :<input type="checkbox" name="humanwritten" <%=
+              story.humanwritten ? "checked" : "" %> />
+            </label>
+              <label>
+             Author <input
+                type="text"
+                name="author"
+                value="<%= story.author %>"
+                placeholder="Enter Author
+                s Name"
+              />
+            </label>
+              <label>
+             Story <input
+                type="text"
+                name="title"
+                value="<%= story.story %>"
+                placeholder="Enter Story"
+              />
+            </label>
+          </fieldset>
+          <input type="submit" value="Update <%= animal.species %>" />
+        </form>
+      </div>
+    </main>
+  </body>
+  <footer>
+  <p></p>
+  <a href="https://generalassemb.ly/">Made by GA Carina Sqaud Student: Wes</a>
+</footer>
+</html>
