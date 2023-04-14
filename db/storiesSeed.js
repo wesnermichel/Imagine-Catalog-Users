@@ -9,7 +9,7 @@ module.exports = [
   },
   {
     title: "The Astro-Ape",
-    bookImage: "https://imgur.com/agTytic",
+    bookImage: "https://imgur.com/a/h6aRYp2.png",
     humanWritten: false,
     author: "Global",
     story:
@@ -17,7 +17,7 @@ module.exports = [
   },
   {
     title: "1984 by George Orwell",
-    bookImage: "",
+    bookImage: "https://imgur.com/GVXjJ7J.png",
     humanWritten: false,
     author: "Eurasia",
     story:
