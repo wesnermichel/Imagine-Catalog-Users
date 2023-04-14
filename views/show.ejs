@@ -14,5 +14,10 @@ body {
 }
 </style>
   <body>
-    <%- include("./partials/header.ejs") %>
+   
     <article>       
+     <h3><a href="/stories/show/<%= story._id %>"><%=story.title%></a></h3>
+    <p>Written By Human: <%= story.humanWritten%></p>
+    <p>Author: <%=story.author %></p>
+     <img src="<%= story.bookImage %>" alt="">
+    <p>Story: <%= story.story %></p> 

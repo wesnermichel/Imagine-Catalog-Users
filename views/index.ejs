@@ -42,11 +42,11 @@ h3 > a {
   <div class="container">
    <% for(let i = 0; i < stories.length; i++) { %>
    <div class="card">
-     <h3><a href="/stories/show/<%= stories[i]._id %>"><%=stories[i]?.title%></a></h3>
-    <p>Written By Human: <%= stories[i]?.humanWritten%></p>
-    <p>Author: <%=stories[i]?.author %></p>
+     <h3><a href="/stories/show/<%= stories[i]._id %>"><%=stories[i].title%></a></h3>
+    <p>Written By Human: <%= stories[i].humanWritten%></p>
+    <p>Author: <%=stories[i].author %></p>
      <img src="<%= stories[i].bookImage %>" alt="">
-    <p>Story: <%= stories[i]?.story %></p> 
+    <p>Story: <%= stories[i].story %></p> 
    </div>
 <% }
    %>
