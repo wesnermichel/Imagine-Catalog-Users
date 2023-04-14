@@ -7,6 +7,7 @@ const storySchema = new mongoose.Schema({
   bookImage: String,
   humanWritten: Boolean,
   author: String,
+  storyIntro: String,
   story: String,
 });
 

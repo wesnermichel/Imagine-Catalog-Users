@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("./partials/head.ejs") %>
+<style>
+    table {
+  width: 100%;
+}
+th {
+  height: 30px;
+}
+body {
+            text-align: center;
+            background-color: #F0F0F0;
+}
+</style>
+  <body>
+    <%- include("./partials/header.ejs") %>
+ 
+<form name= "story" action="/storiess" method="POST" >
+    <input type="text" name="title" placeholder = "title" id="title">
+    <br>
+    <label for="humanWritten">Written by Human?</label>
+    <input type="checkbox" name="humanWritten" id="humanWritten">
+    <br>
+    <input type="text" name="author" placeholder = "Author Name" id="author">
+    <br>
+    <input type="img" name="bookImage" placeholder = "IMG URL" id="bookImage">
+    <br>
+    <input type="text" name="storyIntro" placeholder = "Story Intro" id="storyIntro">
+    <br>
+    
+
+    <button type="submit">SUBMIT NEW BOOK</button>
+</form>
+</body>
+<footer>
+  <p></p>
+  <a href="https://generalassemb.ly/">Made by GA Carina Sqaud Student: Wes</a>
+</footer>
+</html>
