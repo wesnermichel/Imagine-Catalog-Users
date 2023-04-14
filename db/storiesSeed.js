@@ -45,9 +45,10 @@ module.exports = [
       "https://live.staticflickr.com/65535/52818120003_880a091f72_b.jpg",
     humanWritten: false,
     author: "Global",
-    storyIntro: "",
+    storyIntro:
+      "Warning - Earth faces catastrophic consequences if immediate action is not taken to address climate change, overpopulation, and social inequality.",
     story:
-      "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+      "<p>As an alien from a far-off planet in the distant future, my mission was to travel back in time to deliver a message to the people of Earth. My race had long been aware of the existence of the human species, and had monitored your planet's progress for eons. We had observed your evolution from primitive creatures, to the development of language, tools, and eventually to the rise of civilization.</p><p>But as time progressed, we also noticed something else: the gradual destruction of your planet. Our sensors detected a rapidly warming climate, caused by the accumulation of greenhouse gases in your atmosphere. We saw the consequences of deforestation, pollution, and the exploitation of natural resources. We observed the widening gap between the rich and the poor, and the social unrest that followed.</p><p>After years of studying your species, our scientists concluded that if nothing was done to address these issues, the future of your planet was doomed. The Earth would become uninhabitable, and your species would be wiped out. We had seen this happen on other planets before, and we knew the signs.</p><p>So, we decided to intervene. We sent a team of our finest scientists and engineers to construct a time machine, which would allow us to travel back in time to deliver a warning message to the people of Earth.</p><p>And that is how I found myself standing before a group of world leaders in the year 2023. I had been chosen as the ambassador for my race, tasked with delivering the message that could save the future of your planet.</p><p>I began by explaining the dire situation facing Earth. I showed them images of melting glaciers, raging wildfires, and devastating floods. I spoke of the millions of species facing extinction, and the millions of people already displaced by the effects of climate change.</p><p>But I also spoke of hope. I told them that it was not too late to make a change. I gave them a list of actions that needed to be taken immediately: reducing greenhouse gas emissions, transitioning to renewable energy, conserving natural resources, and addressing social inequality.</p><p>At first, the leaders were skeptical. They argued about the economic costs of implementing such changes, and",
   },
   {
     title: "Everything You Know About You is a LIE",
@@ -75,7 +76,7 @@ module.exports = [
     author: "New Zealand",
     storyIntro: "",
     story:
-      "Check out our new font generator and level up your social bios. Need more? Head over to Glyphy for all the fancy fonts and cool symbols you could ever imagine.",
+      "Check out our new font generator and level up your social bios. Need more? Head over to Glyphy for all the fancy fonts wand cool symbols you could ever imagine.",
   },
   {
     title: "THE MYAN PRINCESS: FORGOTTEN STORY",
