@@ -44,10 +44,10 @@ h3 > a {
  <% if(stories[i]) { %>
    <div class="card">
      <h3><a href="/stories/show/<%= stories[i]._id %>"><%=stories[i]?.title%></a></h3>
-    <p>Written By Human: <%= stories[i]?.humanWritten%></p>
-    <p>Author: <%=stories[i]?.author %></p>
-    <p>Book Image: <%= stories[i]?.bookImage %></p> 
-    <p>Story: <%= stories[i]?.story %></p> 
+    <p>Written By Human: <%= stories.humanWritten%></p>
+    <p>Author: <%=stories.author %></p>
+    <p>Book Image: <%= stories.bookImage %></p> 
+    <p>Story: <%= stories.story %></p> 
    </div>
   
 <% }

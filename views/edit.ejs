@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <%- include("./partials/head.ejs") %>
+
 <style>
     table {
   width: 100%;
@@ -12,12 +12,31 @@ body {
             text-align: center;
             background-color: #F0F0F0;
 }
+.card {
+    border: 1px #e7e7e7 solid;
+    background-color: #ffff;
+    margin: 15px 0px 15px 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.container{
+width: 500px;
+}
+
+h3 {
+  background-color: #9b4dca;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+h3 > a {
+  color: #FFFF;
+}
 </style>
   <body>
-    <%- include("./partials/header.ejs") %>
+ 
     <main>
       <div>
-        <form action="/stories/<%= stories._id %>?_method=PUT" method="post">
+        <form action="/stories/<%= story._id %>?_method=PUT" method="post">
           <fieldset>
             <legend>Edit a <%= story.title %></legend>
             <label>
@@ -56,7 +75,7 @@ body {
               />
             </label>
           </fieldset>
-          <input type="submit" value="Update <%= animal.species %>" />
+          <input type="submit" value="Update <%= story.title %>" />
         </form>
       </div>
     </main>

@@ -1,7 +1,7 @@
 module.exports = [
   {
-    title: "The Alchemist by Paulo Coelho",
-    bookImage: "http://img.pokemondb.net/artwork/bulbasaur.jpg",
+    title: "SPACE LION KING: UNTOLD STORY",
+    bookImage: "https://imgur.com/IFCBOlt.png",
     humanWritten: false,
     author: "A.I",
     story:

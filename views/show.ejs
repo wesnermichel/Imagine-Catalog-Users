@@ -14,10 +14,18 @@ body {
 }
 </style>
   <body>
-   
+   <div class="container">
+    <div class="card">
     <article>       
      <h3><a href="/stories/show/<%= story._id %>"><%=story.title%></a></h3>
     <p>Written By Human: <%= story.humanWritten%></p>
     <p>Author: <%=story.author %></p>
      <img src="<%= story.bookImage %>" alt="">
     <p>Story: <%= story.story %></p> 
+    </div>
+    <a href="/stories/edit/<%= story._id %>/"> Not Satisified? Edit this story!</a>
+      <br>
+      <a href="/stories/"> Return to Home </a>
+       <form action="/stories/<%= story._id %>?_method=DELETE" method="POST">
+            <input type="submit" value="Delete"/>
+</div>
