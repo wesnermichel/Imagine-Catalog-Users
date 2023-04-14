@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("./partials/head.ejs") %>
+<style>
+    table {
+  width: 100%;
+}
+th {
+  height: 30px;
+}
+body {
+            text-align: center;
+            background-color: #F0F0F0;
+}
+.card {
+    border: 1px #e7e7e7 solid;
+    background-color: #ffff;
+    margin: 15px 0px 15px 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.container{
+width: 500px;
+}
+
+h3 {
+  background-color: #9b4dca;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+h3 > a {
+  color: #FFFF;
+}
+</style>
+  <body>
+    
+<h1>The Imagine-Engine Story Catalogue</h1>
+  <a href="/stories/new %>">
+        <button> Add A Story</button>
+    </a>
+
+  <div class="container">
+ <% for(let i = 0; i < stories.length; i++) { %>
+ <% if(stories[i]) { %>
+   <div class="card">
+     <h3><a href="/stories/show/<%= stories[i]._id %>"><%=stories[i]?.title%></a></h3>
+    <p>Written By Human: <%= stories[i]?.humanWritten%></p>
+    <p>Author: <%=stories[i]?.author %></p>
+    <p>Book Image: <%= stories[i]?.bookImage %></p> 
+    <p>Story: <%= stories[i]?.story %></p> 
+   </div>
+  
+<% }
+  } %>
+
+  </div>
+</body>
+<footer>
+  <p></p>
+  <a href="https://generalassemb.ly/">Made by GA Carina Sqaud Student: Wes</a>
+</footer>
+</html>
+

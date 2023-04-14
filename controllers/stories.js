@@ -1,12 +1,12 @@
 const express = require("express");
 const router = express.Router();
 const startStories = require("../db/storiesSeed.js");
-const Stories = require("../models/story");
+const Story = require("../model/stories.js");
 
 // INDEX
 router.get("/", async (req, res) => {
-  const story = await Stories.find({});
-  res.render("index.ejs", { Story: stories });
+  const stories = await Story.find({});
+  res.render("index.ejs", { stories: stories });
 });
 //NEW STORY
 router.get("/new", (req, res) => {
@@ -15,28 +15,27 @@ router.get("/new", (req, res) => {
 
 // POSTS
 router.post("/", async (req, res) => {
-  console.log(req.body);
-  req.body.humanwritten = req.body.humanwritten === "on" ? true : false; // Need to update this in the form
-  const newAnimal = await Animal.create(req.body);
-  res.redirect("/animals");
+  req.body.humanWritten = req.body.humanWritten === "on" ? true : false; // Need to update this in the form
+  const newStory = await Story.create(req.body);
+  res.redirect("/stories");
 });
 
 // SHOW
 router.get("/show/:id", async (req, res) => {
-  const story = await story.findById(req.params.id);
+  const story = await Story.findById(req.params.id);
   res.render("show.ejs", { story: story });
 });
 
 // EDIT
 router.get("/edit/:id/", async (req, res) => {
-  const story = await Stories.findById(req.params.id);
+  const story = await Story.findById(req.params.id);
   res.render("edit.ejs", { story });
 });
 
 // SEED
 router.get("/seed", async (req, res) => {
-  await Stories.deleteMany({});
-  await Stories.create(startStories);
+  await Story.deleteMany({});
+  await Story.create(startStories);
   res.redirect("/stories");
 });
 
@@ -46,18 +45,18 @@ router.put("/:id", async (req, res) => {
   const id = req.params.id;
   console.log("This Post", req.body);
 
-  req.body.humanwritten = req.body.humanwritten === "on" ? true : false;
+  req.body.humanWritten = req.body.humanWritten === "on" ? true : false;
   const story = await Story.findByIdAndUpdate(id, req.body, {
     new: true,
   });
 
-  res.redirect("/animals");
+  res.redirect("/stories");
 });
 
 // DELETE
 
 router.delete("/:id", async (req, res) => {
-  const story = await Stories.findByIdAndDelete(req.params.id);
+  const story = await Story.findByIdAndDelete(req.params.id);
   res.redirect("/stories");
 });
 

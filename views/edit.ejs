@@ -29,8 +29,8 @@ body {
               />
             </label>
             <label>
-              Human Written? :<input type="checkbox" name="humanwritten" <%=
-              story.humanwritten ? "checked" : "" %> />
+              Human Written? :<input type="checkbox" name="humanWritten" <%=
+              story.humanWritten ? "checked" : "" %> />
             </label>
               <label>
              Author <input
@@ -39,6 +39,12 @@ body {
                 value="<%= story.author %>"
                 placeholder="Enter Author
                 s Name"
+              />
+              <label>
+             Author <input
+                type="img"
+                name="bookImage"
+                value="<%= story.img %>"
               />
             </label>
               <label>
