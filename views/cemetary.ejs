@@ -34,7 +34,7 @@ h3 > a {
 </style>
   <body>
     <%- include("./partials/header.ejs") %>
-<h1>Animal Index</h1>
+<h1> Imagine - Engine </h1>
   <a href="/stories/new %>">
         <button> Add A Story</button>
     </a>
@@ -44,7 +44,7 @@ h3 > a {
  <% if(stories[i]) { %>
    <div class="card">
      <h3><a href="/stories/show/<%= stories[i]._id %>"><%=stories[i]?.title%></a></h3>
-    <p>Written By Human: <%= animals[i]?.humanWritten%></p>
+    <p>Written By Human: <%= stories[i]?.humanWritten%></p>
     <p>Author: <%=stories[i]?.author %></p>
     <p>Book Image: <%= stories[i]?.bookImage %></p> 
     <p>Story: <%= stories[i]?.story %></p> 
