@@ -50,7 +50,7 @@ h3 > a {
     <p>Author: <%=stories[i].author %></p>
      <img src="<%= stories[i].bookImage %>" alt="">
     <p>Story Intro: <%= stories[i].storyIntro %></p> 
-     <button><a href="/stories/show/<%= stories[i]._id %>">Read Now!</a></button>
+     <a href="/stories/show/<%= stories[i]._id %>">Read Now!</a>
    </div>
 <% }
    %>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ <%- include("./partials/head.ejs") %>
 <style>
     table {
   width: 100%;
@@ -60,12 +60,19 @@ h3 > a {
                 s Name"
               />
               <label>
-             Author <input
+             Book Image URL <input
                 type="img"
                 name="bookImage"
                 value="<%= story.img %>"
               />
             </label>
+            <label>
+             Story Intro <input
+                type="text"
+                name="title"
+                value="<%= story.storyIntro %>"
+                placeholder="Enter Story Intro"
+              />
               <label>
              Story <input
                 type="text"
@@ -77,6 +84,8 @@ h3 > a {
           </fieldset>
           <input type="submit" value="Update <%= story.title %>" />
         </form>
+         <br>
+    <a href="/stories/"> CHANGED YOUR MIND? NO WORRIES LET'S GO BACK TO HOME </a>
       </div>
     </main>
   </body>

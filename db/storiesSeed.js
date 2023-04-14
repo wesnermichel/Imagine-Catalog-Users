@@ -9,8 +9,9 @@ module.exports = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
   {
-    title: "The Astro-Ape",
-    bookImage: "https://imgur.com/a/h6aRYp2.png",
+    title: "HUMAN 1.0: The Year 3000 AD",
+    bookImage:
+      "https://live.staticflickr.com/65535/52818034178_503c2831ea_k.jpg",
     humanWritten: false,
     author: "Global",
     storyIntro: "",
@@ -18,8 +19,9 @@ module.exports = [
       "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
   },
   {
-    title: "1984 by George Orwell",
-    bookImage: "https://imgur.com/GVXjJ7J.png",
+    title: "THE FIRST BEAR WHO SPOKE",
+    bookImage:
+      "https://live.staticflickr.com/65535/52818034023_f20fa841b0_k.jpg",
     humanWritten: false,
     author: "Eurasia",
     storyIntro: "",
@@ -27,8 +29,9 @@ module.exports = [
       "If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill.",
   },
   {
-    title: "The Girl on the Train by Paula Hawkins",
-    bookImage: "",
+    title: "The First Kid Astronaut",
+    bookImage:
+      "https://live.staticflickr.com/65535/52817995415_5ddc548968_k.jpg",
     humanWritten: false,
     author: "India",
     storyIntro: "",
@@ -45,24 +48,27 @@ module.exports = [
       "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
   },
   {
-    title: "The Catcher in the Rye by J.D. Salinger",
-    bookImage: "",
+    title: "Everything You Know About You is a LIE",
+    bookImage:
+      "https://live.staticflickr.com/65535/52818033478_f6d88eb324_k.jpg",
     humanWritten: false,
     author: "Africa",
     storyIntro: "",
     story: "Dummy Text",
   },
   {
-    title: "The Immortal Life of Henrietta Lacks by Rebecca Skloot",
-    bookImage: "",
+    title: "Meet Alice, The Reading Rabbit",
+    bookImage:
+      "https://live.staticflickr.com/65535/52817024717_3bb67b4609_k.jpg",
     humanWritten: false,
     author: "Mauritius",
     storyIntro: "",
     story: "Dummy Text 2",
   },
   {
-    title: "Kakapo",
-    bookImage: "",
+    title: "MEOAH- The Royal Cat",
+    bookImage:
+      "https://live.staticflickr.com/65535/52817585501_8f7a57a6a3_b.jpg",
     humanWritten: false,
     author: "New Zealand",
     storyIntro: "",
@@ -70,8 +76,9 @@ module.exports = [
       "Check out our new font generator and level up your social bios. Need more? Head over to Glyphy for all the fancy fonts and cool symbols you could ever imagine.",
   },
   {
-    title: "To Kill a Mockingbird by Harper Lee",
-    bookImage: "",
+    title: "THE MYAN PRINCESS: FORGOTTEN STORY",
+    bookImage:
+      "https://live.staticflickr.com/65535/52817829474_2974531bc7_b.jpg",
     humanWritten: false,
     author: "Himalayas",
     storyIntro: "",
@@ -80,8 +87,9 @@ module.exports = [
   },
 
   {
-    title: "The Great Gatsby by F. Scott Fitzgerald",
-    bookImage: "",
+    title: "The DEEP SEA ADVENTURES, IN PARALLEL UNIVERSE",
+    bookImage:
+      "https://live.staticflickr.com/65535/52817828449_ca1181f705_b.jpg",
     humanWritten: false,
     author: "Central Asia",
     storyIntro: "",
