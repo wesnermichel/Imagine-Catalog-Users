@@ -8,6 +8,7 @@ const storySchema = new mongoose.Schema({
   humanWritten: Boolean,
   author: String,
   storyIntro: String,
+  story: String,
 });
 
 const Story = mongoose.model("Story", storySchema);
