@@ -14,10 +14,11 @@ body {
 }
 </style>
   <body>
-    <%- include("./partials/header.ejs") %>
+  <div><img src='https://live.staticflickr.com/65535/52818027514_92ea337740.jpg' width="500" height="251" alt="logo"/></a></div>
+    
  
 <form name= "story" action="/storiess" method="POST" >
-    <input type="text" name="title" placeholder = "title" id="title">
+    <input type="text" name="title" placeholder = "Title of Story" id="title">
     <br>
     <label for="humanWritten">Written by Human?</label>
     <input type="checkbox" name="humanWritten" id="humanWritten">
@@ -30,8 +31,7 @@ body {
     <br>
     <input type="text" name="story" placeholder = "Full Story" id="story">
     <br>
-        <textarea rows = "10" cols = "60" name = "story" placeholder = "Full Story" id="story">
-            Enter Your Story Here!
+        <textarea rows = "10" cols = "60" name = "story" placeholder = "Full Story" id="story"> Enter Your Story Here!
          </textarea><br>
 
     <button type="submit">SUBMIT NEW STORY</button>

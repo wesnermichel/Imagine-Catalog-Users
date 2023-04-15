@@ -4,7 +4,8 @@ module.exports = [
     bookImage: "https://imgur.com/IFCBOlt.png",
     humanWritten: false,
     author: "A.I",
-    storyIntro: "",
+    storyIntro:
+      " A Lion from Space, details a his experiance about the Lion King on Earth and his perspective",
     story:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
@@ -13,8 +14,8 @@ module.exports = [
     bookImage:
       "https://live.staticflickr.com/65535/52818034178_503c2831ea_k.jpg",
     humanWritten: false,
-    author: "Global",
-    storyIntro: "",
+    author: "A.I",
+    storyIntro: "How will humans look, and act when we reach Human 1.0",
     story:
       "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
   },
@@ -23,8 +24,8 @@ module.exports = [
     bookImage:
       "https://live.staticflickr.com/65535/52818034023_f20fa841b0_k.jpg",
     humanWritten: false,
-    author: "Eurasia",
-    storyIntro: "",
+    author: "A.I",
+    storyIntro: "Who said bears can't talk. This isnt another fable story",
     story:
       "If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill.",
   },
@@ -33,18 +34,18 @@ module.exports = [
     bookImage:
       "https://live.staticflickr.com/65535/52817995415_5ddc548968_k.jpg",
     humanWritten: false,
-    author: "India",
-    storyIntro: "",
+    author: "A.I",
+    storyIntro:
+      "Travel in a journey that describes how a kid became the first astronaut kid",
     story:
       "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish.",
   },
   {
-    title:
-      "Her Name is Zara, Planet Traveler With A Story To Tell from Lumina. Star Name Aurora",
+    title: "Her Name is Zara from Platen Lumina and She Is Here To Warn Earth!",
     bookImage:
       "https://live.staticflickr.com/65535/52818120003_880a091f72_b.jpg",
     humanWritten: false,
-    author: "Global",
+    author: "A.I",
     storyIntro:
       "Warning - Earth faces catastrophic consequences if immediate action is not taken to address climate change, overpopulation, and social inequality.",
     story:
@@ -55,8 +56,8 @@ module.exports = [
     bookImage:
       "https://live.staticflickr.com/65535/52818033478_f6d88eb324_k.jpg",
     humanWritten: false,
-    author: "Africa",
-    storyIntro: "",
+    author: "A.I",
+    storyIntro: "DummyText- Subject To change",
     story: "Dummy Text",
   },
   {
@@ -64,8 +65,8 @@ module.exports = [
     bookImage:
       "https://live.staticflickr.com/65535/52818119688_833a53ef2f_b.jpg",
     humanWritten: false,
-    author: "Mauritius",
-    storyIntro: "",
+    author: "A.I",
+    storyIntro: "A storyaround a bike and his owner Frank the time traveler",
     story: "Dummy Text 2",
   },
   {
@@ -73,8 +74,9 @@ module.exports = [
     bookImage:
       "https://live.staticflickr.com/65535/52817585501_8f7a57a6a3_b.jpg",
     humanWritten: false,
-    author: "New Zealand",
-    storyIntro: "",
+    author: "A.I",
+    storyIntro:
+      " Meoah, is not your typical cat. He comes from a long bloog line of royalty which is new since they all have 9 lives",
     story:
       "Check out our new font generator and level up your social bios. Need more? Head over to Glyphy for all the fancy fonts wand cool symbols you could ever imagine.",
   },
@@ -83,8 +85,8 @@ module.exports = [
     bookImage:
       "https://live.staticflickr.com/65535/52817829474_2974531bc7_b.jpg",
     humanWritten: false,
-    author: "Himalayas",
-    storyIntro: "",
+    author: "A.I",
+    storyIntro: "A story never discussed about a young Mayan Princess",
     story:
       "And don’t forget, we have images, plugins and the ultimate guide to all flavors of lorem ipsum.",
   },
@@ -94,8 +96,8 @@ module.exports = [
     bookImage:
       "https://live.staticflickr.com/65535/52817828449_ca1181f705_b.jpg",
     humanWritten: false,
-    author: "Central Asia",
-    storyIntro: "",
+    author: "A.I",
+    storyIntro: "Adventures deep down in the sea!",
     story:
       "The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.",
   },
