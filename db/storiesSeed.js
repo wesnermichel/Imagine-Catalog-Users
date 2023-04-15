@@ -15,7 +15,8 @@ module.exports = [
       "https://live.staticflickr.com/65535/52818034178_503c2831ea_k.jpg",
     humanWritten: false,
     author: "A.I",
-    storyIntro: "How will humans look, and act when we reach Human 1.0",
+    storyIntro:
+      "How will the future look, and what should we expect when we reach Human 1.0",
     story:
       "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
   },
