@@ -41,7 +41,8 @@ module.exports = [
       "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish.",
   },
   {
-    title: "Her Name is Zara from Platen Lumina and She Is Here To Warn Earth!",
+    title:
+      "Her Name is Zara, from Planet Lumina and She Is Here To Warn Earth!",
     bookImage:
       "https://live.staticflickr.com/65535/52818120003_880a091f72_b.jpg",
     humanWritten: false,
@@ -52,12 +53,12 @@ module.exports = [
       "<p>As an alien from a far-off planet in the distant future, my mission was to travel back in time to deliver a message to the people of Earth. My race had long been aware of the existence of the human species, and had monitored your planet's progress for eons. We had observed your evolution from primitive creatures, to the development of language, tools, and eventually to the rise of civilization.</p><p>But as time progressed, we also noticed something else: the gradual destruction of your planet. Our sensors detected a rapidly warming climate, caused by the accumulation of greenhouse gases in your atmosphere. We saw the consequences of deforestation, pollution, and the exploitation of natural resources. We observed the widening gap between the rich and the poor, and the social unrest that followed.</p><p>After years of studying your species, our scientists concluded that if nothing was done to address these issues, the future of your planet was doomed. The Earth would become uninhabitable, and your species would be wiped out. We had seen this happen on other planets before, and we knew the signs.</p><p>So, we decided to intervene. We sent a team of our finest scientists and engineers to construct a time machine, which would allow us to travel back in time to deliver a warning message to the people of Earth.</p><p>And that is how I found myself standing before a group of world leaders in the year 2023. I had been chosen as the ambassador for my race, tasked with delivering the message that could save the future of your planet.</p><p>I began by explaining the dire situation facing Earth. I showed them images of melting glaciers, raging wildfires, and devastating floods. I spoke of the millions of species facing extinction, and the millions of people already displaced by the effects of climate change.</p><p>But I also spoke of hope. I told them that it was not too late to make a change. I gave them a list of actions that needed to be taken immediately: reducing greenhouse gas emissions, transitioning to renewable energy, conserving natural resources, and addressing social inequality.</p><p>At first, the leaders were skeptical. They argued about the economic costs of implementing such changes, and",
   },
   {
-    title: "Everything You Know About You is a LIE",
-    bookImage:
-      "https://live.staticflickr.com/65535/52818033478_f6d88eb324_k.jpg",
+    title: "The 3 Sisters Who Dared to Dream!",
+    bookImage: "https://live.staticflickr.com/65535/52818358319_ccf4b1cc30.jpg",
     humanWritten: false,
     author: "A.I",
-    storyIntro: "DummyText- Subject To change",
+    storyIntro:
+      "The 3 Sisters Who Dared To Dream big in Ancient Africa, where the land was properous and the water was plenty",
     story: "Dummy Text",
   },
   {
