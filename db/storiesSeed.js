@@ -49,8 +49,12 @@ module.exports = [
     author: "A.I",
     storyIntro:
       "Warning - Earth faces catastrophic consequences if immediate action is not taken to address climate change, overpopulation, and social inequality.",
-    story:
-      " an alien from a far-off planet in the distant future, my mission was to travel back in time to deliver a message to the people of Earth. My race had long been aware of the existence of the human species, and had monitored your planet's progress for eons. We had observed your evolution from primitive creatures",
+    story: `As an alien from a far-off planet in the distant future, my mission was to travel back in time to deliver a message to the people of Earth. My race had long been aware of the existence of the human species, and had monitored your planet's progress for eons. We had observed your evolution from primitive creatures, to the development of language, tools, and eventually to the rise of civilization. But as time progressed, we also noticed something else: the gradual destruction of your planet. Our sensors detected a rapidly warming climate, caused by the accumulation of greenhouse gases in your atmosphere. We saw the consequences of deforestation, pollution, and the exploitation of natural resources. We observed the widening gap between the rich and the poor, and the social unrest that followed. 
+      
+      <p>"After years of studying your species, our scientists concluded that if nothing was done to address these issues, the future of your planet was doomed. The Earth would become uninhabitable, and your species would be wiped out. We had seen this happen on other planets before, and we knew the signs."
+
+      "So, we decided to intervene. We sent a team of our finest scientists and engineers to construct a time machine, which would allow us to travel back in time to deliver a warning message to the people of Earth."
+      And that is how I found myself standing before a group of world leaders in the year 2023. I had been chosen as the ambassador for my race, tasked with delivering the message that could save the future of your planet.,/`,
   },
   {
     title: "The 3 Sisters Who Dared to Dream!",
