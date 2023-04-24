@@ -5,9 +5,16 @@ const Story = require("../model/stories.js");
 
 // INDEX
 router.get("/", async (req, res) => {
+  let user;
+  console.log(req.session);
+  if (req.session.currentUser) user = req.session.currentUser.username;
+  // wait or this to complete
+  // Stories.find() is a Promise
+  // Promise is resolved or rejected
   const stories = await Story.find({});
-  res.render("index.ejs", { stories, user: req.sessions.currentUser.username });
-  //It used to be res.render("index.ejs", { stories: stories);
+  // then run the next line of code
+  // res.send(fruits);
+  res.render("stories/index.ejs", { stories, user });
 });
 //NEW STORY
 router.get("/new", (req, res) => {
