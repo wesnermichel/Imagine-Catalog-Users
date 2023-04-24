@@ -6,7 +6,8 @@ const Story = require("../model/stories.js");
 // INDEX
 router.get("/", async (req, res) => {
   const stories = await Story.find({});
-  res.render("index.ejs", { stories: stories });
+  res.render("index.ejs", { stories, user: req.sessions.currentUser.username });
+  //It used to be res.render("index.ejs", { stories: stories);
 });
 //NEW STORY
 router.get("/new", (req, res) => {

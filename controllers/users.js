@@ -13,7 +13,7 @@ router.post("/login", async (req, res, next) => {
     const userExists = await User.exists({ email: req.body.email });
     if (userExists) {
       user = await User.findOne({ email: req.body.email });
-      // console.log(user)
+      console.log(user);
     } else {
       return res.redirect("/login");
     }
@@ -26,7 +26,7 @@ router.post("/login", async (req, res, next) => {
       // console.log(req.session);
       // console.log(match);
       // console.log(userExists);
-      res.redirect("/fruits");
+      res.redirect("/stories");
     } else res.redirect("/login");
   } catch (err) {
     console.log(err);

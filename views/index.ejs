@@ -32,21 +32,17 @@ h3 > a {
   color: #FFFF;
 }
 
-
-
-
 </style>
+<% if (user) { %>
+<h3>Hello, <%= user %></h3>
+<% } %>
   <body>
-    
-
 <div><img src='https://live.staticflickr.com/65535/52818027514_92ea337740.jpg' width="500" height="251" alt="logo"/></a></div>
   <br>
   <a href="/stories/new %>">
         <button> Add A Story</button>
     </a>
-    
-
-  <div class="container">
+      <div class="container">
    <% for(let i = 0; i < stories.length; i++) { %>
    <div class="card">
      <h3><a href="/stories/show/<%= stories[i]._id %>"><%=stories[i].title%></a></h3>
