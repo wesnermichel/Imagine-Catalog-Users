@@ -13,13 +13,21 @@ router.post("/login", async (req, res, next) => {
     const userExists = await User.exists({ email: req.body.email });
     if (userExists) {
       user = await User.findOne({ email: req.body.email });
-      console.log(user);
+      // console.log(user)
     } else {
       return res.redirect("/login");
     }
-    const match = bcrypt.compare(req.body.password,req.body.user);
-    console.log(userExists);
-    res.redirect("/login");
+    const match = await bcrypt.compare(req.body.password, user.password);
+    if (match) {
+      req.session.currentUser = {
+        id: user._id,
+        username: user.username,
+      };
+      // console.log(req.session);
+      // console.log(match);
+      // console.log(userExists);
+      res.redirect("/fruits");
+    } else res.redirect("/login");
   } catch (err) {
     console.log(err);
     next();
