@@ -14,7 +14,7 @@ router.get("/", async (req, res) => {
   const stories = await Story.find({});
   // then run the next line of code
   // res.send(fruits);
-  res.render("stories/index.ejs", { stories, user });
+  res.render("index.ejs", { stories, user });
 });
 //NEW STORY
 router.get("/new", (req, res) => {
